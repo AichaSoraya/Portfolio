@@ -1,0 +1,19 @@
+.Photo{
+    width: 50%;
+
+    img{
+        @include image-conteiner(contain, 100%, 100%);
+        border-radius: 50px;
+        font-size: inherit;
+    }
+}
+
+.photo-acceuil{
+    width: 40%;
+    height: 100%;
+
+    img{
+        @include image-conteiner(cover, 100%, 100%);
+        object-position: center;
+    }
+}

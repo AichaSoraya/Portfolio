@@ -1,0 +1,43 @@
+*{
+    font-size: 105%;
+}
+
+// .Partie2{
+//     backdrop-filter: blur(10px);
+// }
+
+.presentation{
+
+    h1{
+        text-shadow: 0 0 50px white;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        top: 20px;
+    }
+}
+
+.presentation2{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.322);
+    
+}
+
+.--info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    section{
+        h2, p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.322);
+        }
+
+        h2{
+            background-color: rgba(0, 0, 0, 0.322);
+        }
+        p{
+            background-color: rgba(128, 128, 128, 0.438);
+        }
+    }
+}

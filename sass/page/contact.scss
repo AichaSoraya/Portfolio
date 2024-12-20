@@ -1,0 +1,29 @@
+.contact{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .leftHand{
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .rightHand{
+        width: 45%;
+        margin-top: 100px;
+
+        form{
+            @include flexcenter(flex, center);
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 2%;
+
+            input, textarea{
+                border-radius: 20px;
+                border: none;
+                color: black;
+                width: 90%;
+            }
+        }
+    }
+}

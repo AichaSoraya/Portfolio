@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Mon-photo {
+  width: 60%;
+  border-radius: 20%;
+  height: 120px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.left {
+  width: 15%;
+  background-color: rgb(99, 173, 149);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.Acceuil {
+  width: 85%;
+  background-image: url("../image/Photo1.png");
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  block-size: cover;
+  background-position: center;
+  color: rgb(97, 93, 93);
+}
+
+.Parti1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.Parti1 p {
+  font-size: 12px;
+}
+.Parti1 h3 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=index.css.map */

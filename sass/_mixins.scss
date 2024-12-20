@@ -1,0 +1,11 @@
+@mixin flexcenter($f, $c) {
+    display: $f;
+    justify-content: $c;
+    align-items: center;
+}   
+
+@mixin image-conteiner($cover, $w, $h) {
+    object-fit: $cover;
+    width: $w;
+    height: $h;
+}
